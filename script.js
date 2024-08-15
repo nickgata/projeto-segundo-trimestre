@@ -10,11 +10,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Desmatamento",
-                afirmacao: "afirmação"
+                afirmacao: ""
             },
             {
                 texto: "Uso de energias renováeis",
-                afirmacao: "afirmação"
+                afirmacao: ""
             }
         ]
     },
@@ -23,11 +23,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Oxigênio",
-                afirmacao: "afirmação"
+                afirmacao: ""
             },
             {
                 texto: "Dióxido de carbono (CO2)",
-                afirmacao: "afirmação"
+                afirmacao: ""
             }
         ]
     },
@@ -36,11 +36,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Tomar banhos mais longos",
-                afirmacao: "afirmação"
+                afirmacao: ""
             },
             {
                 texto: "Fechar a torneira enquanto escova os dentes",
-                afirmacao: "afirmação"
+                afirmacao: ""
             }
         ]
     },
@@ -49,11 +49,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Melhora na qualidade do sono",
-                afirmacao: "afirmação"
+                afirmacao: ""
             },
             {
                 texto: "Problemas respiratórios",
-                afirmacao: "afirmação"
+                afirmacao: ""
             }
         ]
     },
@@ -62,11 +62,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Criação de áreas protegidas",
-                afirmacao: "afirmação"
+                afirmacao: ""
             },
             {
                 texto: "Expansão das áreas urbanas",
-                afirmacao: "afirmação"
+                afirmacao: ""
             }
         ]
     },
@@ -105,7 +105,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "Obrigada pela atenção...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
